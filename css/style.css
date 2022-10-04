@@ -2,18 +2,17 @@
   padding:0;
   margin:0; 
   box-sizing:border-box;
-  font-family:sans-serif;
-  background-color:black;
-  
+ font-family:sans-serif;  
 }
 
 
 nav{
   display:flex;
-  justify-content:space-between;
+  justify-content: center;
   align-items:center;
   padding:15px;
-  margin: 0 6rem;
+  gap: 9rem;
+  background-color:black;
 }
 
 nav table, th, tr {
@@ -34,6 +33,7 @@ nav button{
   font-size: 20px;
   border: 1px solid white;
   background-color: white;
+
 }
 
 
@@ -43,15 +43,16 @@ nav button{
   display:flex;
   justify-content:center;
   align-items:center;
-  padding-top:3rem;
+  padding-top:4rem;
+  background-color:black;
 }
 
 .hero img{
   width: 150px;
   height: 150px;
-  position: relative;;
-  left: 25%;
-  top: 6rem;
+  position: absolute;
+  left: 27%;
+  top: 8rem;
 }
 
 .hero .text{
@@ -62,11 +63,11 @@ nav button{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:1.5rem;
+  gap:2.5rem;
 }
 
 .hero .text1{
-  width: 60%;
+  width: 70%;
   height: auto;
   font-size: 2rem;
   color:white;
@@ -75,9 +76,9 @@ nav button{
 }
 
 .hero .text2{
-  width: 55%;
+  width: 60%;
   height: auto;
-  font-size: 15px;
+  font-size: 1.5rem;
   color:white;
   display: flex;
   justify-content:center;
@@ -89,6 +90,7 @@ nav button{
 
 .hero .text h2{
 text-align: center;
+font-size: 3rem;
 }
 
 
@@ -107,6 +109,7 @@ text-align: center;
   display:flex;
   flex-direction: column;
   justify-content: center;
+  background-color:black;
 
 }
 
