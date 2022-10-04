@@ -1,0 +1,113 @@
+*{
+  padding:0;
+  margin:0; 
+  box-sizing:border-box;
+  font-family:sans-serif;
+  background-color:black;
+  
+}
+
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px;
+  margin: 0 6rem;
+}
+
+nav table, th, tr {
+  border:1px solid ;
+  border-collapse:collapse ;
+  border-spacing:10px;
+}
+
+nav table, th, tr a {
+  text-decoration: none;
+  color:white;
+}
+nav button{
+  width: 15%;
+  height: 50px;
+  font-weight: 700;
+  font-family: Manrope;
+  font-size: 20px;
+  border: 1px solid white;
+  background-color: white;
+}
+
+
+.hero{
+  width:100%;
+  height:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-top:3rem;
+}
+
+.hero img{
+  width: 150px;
+  height: 150px;
+  position: relative;;
+  left: 25%;
+  top: 6rem;
+}
+
+.hero .text{
+  width:70%;
+  height: auto;
+  display:flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1.5rem;
+}
+
+.hero .text1{
+  width: 60%;
+  height: auto;
+  font-size: 2rem;
+  color:white;
+  display: flex;
+  justify-content:center;
+}
+
+.hero .text2{
+  width: 55%;
+  height: auto;
+  font-size: 15px;
+  color:white;
+  display: flex;
+  justify-content:center;
+}
+.hero .text2 h3{
+  text-align: center;
+  font-weight: lighter;
+}
+
+.hero .text h2{
+text-align: center;
+}
+
+
+.hero .text button{
+  width: 25%;
+  height: 45px;
+  font-weight: 700;
+  font-family:Manrope;
+  font-size: 20px;
+  border: 1px solid white;
+  background-color: white;
+
+}
+
+.vector{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
