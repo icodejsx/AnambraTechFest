@@ -3,6 +3,7 @@
   margin:0; 
   box-sizing:border-box;
  font-family:sans-serif;  
+ overflow-x: hidden;
 }
 
 
@@ -146,7 +147,43 @@ font-size: 3rem;
   width: 100%;
   height: 400px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: black;
+  top: 6rem;
 }
+
+.secondpart .container{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 6rem;
+}
+
+
+.secondpart .theme{
+  width:100%;
+  height:auto;
+  display:flex;
+  align-items: center;
+  color:white;
+  margin-left: 16.5rem;
+  
+}
+
+.secondpart .textbox{
+  width:100%;
+  height:auto;
+  display: flex;
+  align-items: center;
+  color:white;
+  padding-top: 4rem;
+  margin-left: 16.5rem;
+}
+
 
 
