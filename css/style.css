@@ -1,32 +1,37 @@
-*{
-  padding:0;
-  margin:0; 
-  box-sizing:border-box;
- font-family:sans-serif;  
- overflow-x: hidden;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 
-nav{
-  display:flex;
+nav {
+  display: flex;
   justify-content: center;
-  align-items:center;
-  padding:15px;
+  align-items: center;
+  padding: 15px;
   gap: 9rem;
-  background-color:black;
+  background-color: black;
 }
 
-nav table, th, tr {
-  border:1px solid ;
-  border-collapse:collapse ;
-  border-spacing:10px;
+nav table,
+th,
+tr {
+  border: 1px solid;
+  border-collapse: collapse;
+  border-spacing: 10px;
 }
 
-nav table, th, tr a {
+nav table,
+th,
+tr a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
-nav button{
+
+nav button {
   width: 15%;
   height: 50px;
   font-weight: 700;
@@ -38,17 +43,17 @@ nav button{
 }
 
 
-.hero{
-  width:100%;
-  height:auto;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  padding-top:4rem;
-  background-color:black;
+.hero {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  background-color: black;
 }
 
-.hero img{
+.hero img {
   width: 150px;
   height: 150px;
   position: absolute;
@@ -56,57 +61,58 @@ nav button{
   top: 8rem;
 }
 
-.hero .text{
-  width:70%;
+.hero .text {
+  width: 70%;
   height: auto;
-  display:flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:2.5rem;
+  gap: 2.5rem;
 }
 
-.hero .text1{
+.hero .text1 {
   width: 70%;
   height: auto;
   font-size: 2rem;
-  color:white;
+  color: white;
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
-.hero .text2{
+.hero .text2 {
   width: 60%;
   height: auto;
   font-size: 1.5rem;
-  color:#B5B4B4;
+  color: #B5B4B4;
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
-.hero .text2 h3{
+
+.hero .text2 h3 {
   text-align: center;
   font-weight: lighter;
 }
 
-.hero .text h2{
-text-align: center;
-font-size: 3rem;
+.hero .text h2 {
+  text-align: center;
+  font-size: 3rem;
 }
 
 
-.hero .text button{
+.hero .text button {
   width: 25%;
   height: 45px;
   font-weight: 700;
-  font-family:Manrope;
+  font-family: Manrope;
   font-size: 20px;
   border: 1px solid white;
   background-color: white;
 
 }
 
-.vector{
+.vector {
   width: 100%;
   height: auto;
   display: flex;
@@ -114,26 +120,30 @@ font-size: 3rem;
   justify-content: center;
   align-items: center;
 }
-.vector .image{
-  display:flex;
+
+.vector .image {
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color:black;
+  background-color: black;
 }
-.vector .box{
-  width:100%;
+
+.vector .box {
+  width: 100%;
   height: auto;
   justify-content: center;
-  position:absolute;
+  position: absolute;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  bottom:3rem;
+  bottom: 3rem;
   left: 2rem;
   transform: rotate(-10deg);
 }
- .vector .box .text{
-  width: 250px;;
+
+.vector .box .text {
+  width: 250px;
+  ;
   height: 35px;
   display: flex;
   align-items: center;
@@ -141,12 +151,12 @@ font-size: 3rem;
   justify-content: center;
   border-radius: 20px;
   font-size: 20px;
-  background-color:#9E9735;
+  background-color: #9E9735;
   margin: 0 auto;
-} 
+}
 
 
-.secondpart{
+.secondpart {
   width: 100%;
   height: 400px;
   display: flex;
@@ -155,7 +165,7 @@ font-size: 3rem;
   background-color: black;
 }
 
-.secondpart .container{
+.secondpart .container {
   width: 100%;
   height: 400px;
   display: flex;
@@ -165,15 +175,15 @@ font-size: 3rem;
 }
 
 
-.secondpart .theme{
-  width:100%;
-  height:auto;
-  display:flex;
+.secondpart .theme {
+  width: 100%;
+  height: auto;
+  display: flex;
   align-items: center;
-  color:white;
+  color: white;
   margin-left: 16.5rem;
   margin-top: 2rem;
-  
+
 }
 
 .secondpart .text {
@@ -184,22 +194,22 @@ font-size: 3rem;
   align-items: center;
   justify-content: space-between;
   padding-top: 4rem;
-  gap:2rem;
+  gap: 2rem;
 }
 
 
-.secondpart .text .arewe{
-  width:100%;
-  height:auto;
+.secondpart .text .arewe {
+  width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
-  color:white;
+  color: white;
   padding-bottom: 9rem;
 }
 
-.secondpart .text .textbox{
-  width:80%;
-  height:auto;
+.secondpart .text .textbox {
+  width: 80%;
+  height: auto;
   display: flex;
   color: white;
   flex-direction: column;
@@ -208,102 +218,107 @@ font-size: 3rem;
 }
 
 
-.speakers{
-  width:100%;
-  height:650px;
-  display:flex;
+.speakers {
+  width: 100%;
+  height: 650px;
+  display: flex;
   flex-direction: column;
-  background-color:black;
+  background-color: black;
   padding: 4rem;
 }
-.speakers .content{
-  width:100%;
-  height:auto;
-  display:flex;
+
+.speakers .content {
+  width: 100%;
+  height: auto;
+  display: flex;
   flex-direction: column;
-  gap:10rem;
+  gap: 10rem;
 }
 
-.speakers .content .speaker{
-  width:100%;
-  height:auto;
+.speakers .content .speaker {
+  width: 100%;
+  height: auto;
   color: white;
   font-size: 1rem;
   left: 22rem;
 }
-.speakers .content .speaker h1{
-  width:40%;
+
+.speakers .content .speaker h1 {
+  width: 40%;
   display: flex;
-  position:relative;;
-  right:-8rem;
+  position: relative;
+  ;
+  right: -8rem;
 }
 
-.speakers .content .textbox{
-  width:35%;
-  height:auto;
+.speakers .content .textbox {
+  width: 35%;
+  height: auto;
   display: flex;
-  position: relative;;
+  position: relative;
+  ;
   left: 8rem;
   padding-top: 3rem;
   text-align: left;
 }
 
 
-.speakers .content .cardbox{
-  width:300px;
-  height:400px;
+.speakers .content .cardbox {
+  width: 300px;
+  height: 400px;
   display: flex;
   position: absolute;
   justify-content: center;
-  align-items:center;
-  box-sizing:border-box;
+  align-items: center;
+  box-sizing: border-box;
   left: 50rem;
-  bottom: -90rem; 
-  background: linear-gradient(#181716,#2e2b18, #312c18,#121212);
+  bottom: -90rem;
+  background: linear-gradient(#181716, #2e2b18, #312c18, #121212);
   border: 2px solid rgba(254, 254, 254, 0.1);
   backdrop-filter: blur(25px);
 
 }
 
-.speakers .content .cardbox .card{
-  width:250px;
-  height:auto;
+.speakers .content .cardbox .card {
+  width: 250px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   gap: 0.5rem;
   color: white;
- 
-}
-.speakers .content .cardbox .card caption{
-  font-size:2rem;
+
 }
 
-.speakers .content .cardbox .card p{
+.speakers .content .cardbox .card caption {
+  font-size: 2rem;
+}
+
+.speakers .content .cardbox .card p {
   color: #FEFEFE80;
   font-weight: 700;
-  font-size:15px;
+  font-size: 15px;
 
 }
 
 
-.speakers .content .arrow{
-  width:120px;
-  height:100px;
+.speakers .content .arrow {
+  width: 120px;
+  height: 100px;
   display: flex;
   color: white;
   position: absolute;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  bottom: -90rem; 
+  bottom: -90rem;
   left: 12rem;
 }
 
-.speakers .content .arrow .box{
-  width:130px;
-  height:50px;
+.speakers .content .arrow .box {
+  width: 130px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -314,38 +329,158 @@ font-size: 3rem;
 
 
 
-.events{
-  width:100%;
-  height:650px;
-  background-color:#eddd12;
-  display:flex ;
+.events {
+  width: 100%;
+  height: 650px;
+  background-color: #eddd12;
+  display: flex;
 }
 
-.events .event{
-  width:100%;
+.events .event {
+  width: 100%;
   height: auto;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  gap:10rem;
+  /* justify-content: center; */
+  /* align-items: center; */
+
 }
 
-.events .event .text{
-  width:100%;
-  height:auto;
+.events .event .eventup {
+  padding-top: 6rem;
+  width: 80%;
+  height: auto;
   color: black;
   font-size: 1rem;
-  left: 22rem;
+  margin: 0 auto;
+}
+
+.events .event .eventup .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.events .event .eventup .text button {
+  width: 190px;
+  height: 55px;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  top: -10px;
+}
+
+.events .event .eventup .textbox {
+  width: 60%;
+  margin-top: 3rem;
+  font-size: 20px;
+}
+
+
+.events .event .eventdown {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.events .event .eventdown .eventDownYellow{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5.5rem;
+}
+
+.events .event .eventdown .eventDownBlack{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  position: relative;
+  left: 6rem;
+}
+
+.events .event .eventdown .eventDownYellow .calbox{
+  width: 300px;
+  height:95px;
+  background-color:#9E9735;
+  border-radius:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+.events .event .eventdown .eventDownBlack .calbox{
+  width: 300px;
+  height:95px;
+  background-color:#030303;
+  border-radius:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+.events .event .eventdown .calbox .calendar{
+  width: auto;
+  height: 100px;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+  padding: 10px 20px;
+}
+
+.events .event .eventdown .calbox .calendar .cal{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction:row;
+  gap: 0.5rem;
+  font-size: 20px;
+}
+.events .event .eventdown .calbox .calendar .cal h4{
+  color:#e0e0e0;
+  font-weight: 100;
+}
+.events .event .eventdown .calbox .calendar .cal i{
+  color:#FFF251;
+}
+.events .event .eventdown .calbox .calendar p{
+  color:#fdfafa;
 }
 
 
 
 
-.hackathon{
-  width:100%;
-  height:600px;
-  background-color:black;
+
+
+
+
+
+
+.hackathon {
+  width: 100%;
+  height: 600px;
+  background-color: black;
 }
-
-
-
- 
