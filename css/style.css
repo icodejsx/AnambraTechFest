@@ -6,6 +6,7 @@
   overflow-x: hidden;
 }
 
+/*  NAV BAR STYLES STARTS HERE  */
 
 nav {
   display: flex;
@@ -42,6 +43,9 @@ nav button {
 
 }
 
+/*  NAV BAR STYLES ENDS HERE  */
+
+/* HERO SECTION STYLES STARTS HERE */
 
 .hero {
   width: 100%;
@@ -112,6 +116,8 @@ nav button {
 
 }
 
+/* HERO SECTION STYLES ENDS HERE */
+
 .vector {
   width: 100%;
   height: auto;
@@ -154,6 +160,7 @@ nav button {
   background-color: #9E9735;
   margin: 0 auto;
 }
+
 
 
 .secondpart {
@@ -218,48 +225,58 @@ nav button {
 }
 
 
+/*  SPEAKERS SECTIONS  STYLES STARTS  HERE  */
+
 .speakers {
   width: 100%;
-  height: 650px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   background-color: black;
   padding: 4rem;
 }
 
+.speakers .bg{
+  width: auto;
+  height: auto;
+  position: absolute;
+  display: flex;
+  right: 2rem;
+  margin-top: -3rem;
+}
+
+
 .speakers .content {
   width: 100%;
   height: auto;
   display: flex;
+  justify-content:center;
   flex-direction: column;
-  gap: 10rem;
 }
 
 .speakers .content .speaker {
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: flex-start;
   width: 100%;
   height: auto;
   color: white;
   font-size: 1rem;
-  left: 22rem;
+}
+.speakers .content .speaker h1{
+  padding-bottom: 1rem;
+  font-size: 2rem;
 }
 
-.speakers .content .speaker h1 {
-  width: 40%;
-  display: flex;
-  position: relative;
-  ;
-  right: -8rem;
-}
 
 .speakers .content .textbox {
-  width: 35%;
+  width: 40%;
   height: auto;
   display: flex;
-  position: relative;
-  ;
-  left: 8rem;
   padding-top: 3rem;
   text-align: left;
+  spacing:1px;
 }
 
 
@@ -271,12 +288,11 @@ nav button {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  left: 50rem;
-  bottom: -90rem;
+  right: 15rem;
+  margin-top: 30rem;
   background: linear-gradient(#181716, #2e2b18, #312c18, #121212);
   border: 2px solid rgba(254, 254, 254, 0.1);
   backdrop-filter: blur(25px);
-
 }
 
 .speakers .content .cardbox .card {
@@ -326,8 +342,11 @@ nav button {
   font-size: 1.5rem;
 }
 
+/*  SPEAKERS SECTIONS  STYLES STARTS  ENDS */
 
 
+
+/* EVENTS SECTIONS STYLES  STARTS  HERE */
 
 .events {
   width: 100%;
@@ -341,8 +360,7 @@ nav button {
   height: auto;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
+ 
 
 }
 
@@ -471,16 +489,10 @@ nav button {
 }
 
 
-
-
-
-
-
-
-
+/* EVENTS SECTIONS STYLES  ENDS  HERE */
 
 .hackathon {
   width: 100%;
   height: 600px;
   background-color: black;
-}
+} 
