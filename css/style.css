@@ -314,11 +314,27 @@ font-size: 3rem;
 
 
 
-.eventshedule{
+.events{
   width:100%;
   height:650px;
   background-color:#eddd12;
+  display:flex ;
+}
 
+.events .event{
+  width:100%;
+  height: auto;
+  display:flex;
+  flex-direction: column;
+  gap:10rem;
+}
+
+.events .event .text{
+  width:100%;
+  height:auto;
+  color: black;
+  font-size: 1rem;
+  left: 22rem;
 }
 
 
