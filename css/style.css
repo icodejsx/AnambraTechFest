@@ -210,8 +210,9 @@ font-size: 3rem;
 
 .speakers{
   width:100%;
-  height:600px;
+  height:650px;
   display:flex;
+  flex-direction: column;
   background-color:black;
   padding: 4rem;
 }
@@ -219,6 +220,8 @@ font-size: 3rem;
   width:100%;
   height:auto;
   display:flex;
+  flex-direction: column;
+  gap:10rem;
 }
 
 .speakers .content .speaker{
@@ -239,11 +242,94 @@ font-size: 3rem;
   width:35%;
   height:auto;
   display: flex;
-  position: absolute;;
-  left: 12rem;
+  position: relative;;
+  left: 8rem;
   padding-top: 3rem;
   text-align: left;
 }
+
+
+.speakers .content .cardbox{
+  width:300px;
+  height:400px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items:center;
+  box-sizing:border-box;
+  left: 50rem;
+  bottom: -90rem; 
+  background: linear-gradient(#181716,#2e2b18, #312c18,#121212);
+  border: 2px solid rgba(254, 254, 254, 0.1);
+  backdrop-filter: blur(25px);
+
+}
+
+.speakers .content .cardbox .card{
+  width:250px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  gap: 0.5rem;
+  color: white;
+ 
+}
+.speakers .content .cardbox .card caption{
+  font-size:2rem;
+}
+
+.speakers .content .cardbox .card p{
+  color: #FEFEFE80;
+  font-weight: 700;
+  font-size:15px;
+
+}
+
+
+.speakers .content .arrow{
+  width:120px;
+  height:100px;
+  display: flex;
+  color: white;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  bottom: -90rem; 
+  left: 12rem;
+}
+
+.speakers .content .arrow .box{
+  width:130px;
+  height:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  font-size: 1.5rem;
+}
+
+
+
+
+.eventshedule{
+  width:100%;
+  height:650px;
+  background-color:#eddd12;
+
+}
+
+
+
+
+.hackathon{
+  width:100%;
+  height:600px;
+  background-color:black;
+}
+
 
 
  
