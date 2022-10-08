@@ -149,7 +149,6 @@ nav button {
 
 .vector .box .text {
   width: 250px;
-  ;
   height: 35px;
   display: flex;
   align-items: center;
@@ -276,7 +275,7 @@ nav button {
   display: flex;
   padding-top: 3rem;
   text-align: left;
-  spacing:1px;
+ 
 }
 
 
@@ -494,5 +493,58 @@ nav button {
 .hackathon {
   width: 100%;
   height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: black;
 } 
+
+.hackathon .hacktext{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+}
+
+.hackathon .hacktext .text{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+
+}
+
+
+.hackathon .hacktext .text button{
+width: 190px;
+height: 55px;
+font-size: large;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+}
+
+.hackathon .hacktext .textbox{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 3rem;
+  gap: 7rem;
+}
+
+.hackathon .hacktext .textbox p{
+  width: 60%;
+  font-size: 17px;
+  text-align: left;
+}
+
+
+
+
