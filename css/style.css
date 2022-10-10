@@ -680,12 +680,207 @@ tr {
   width: 700px;
 }
 
+/* FAQ SECTIONS STYLES STARTS  HERE */
+
+.faqsection{
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:  #e7dc0e;
+}
+
+.faqsection .faqbox{
+  width: 80%;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.faqsection .faqbox .text{
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  margin-bottom: 1rem;
+}
+.faqsection .faqbox .text h1{
+  font-size:  3rem;
+  font-weight: bold;
+}
+
+.faqsection .faqbox .text button{
+width: 190px;
+height: 55px;
+font-size: large;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+}
+
+.faqsection .faqbox .textbox{
+  width: 500px;
+  margin-top: 2rem;
+  font-size:1.2rem;
+}
+
+.faqsection .massagebox{
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.faqsection .massagebox .box{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  background-color: black;
+  color:white;
+}
+.faqsection .massagebox .box .text{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  font-weight: 700;
+}
+
+.faqsection i{
+  font-size: 2rem;
+}
+
+
+.faqsection .massagebox .box .ptag{
+  width: auto;
+  height: auto;
+  padding: 30px 50px;
+  font-weight: lighter;
+  line-height: 25px;   
+
+}
+
+.faqsection .box1{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.faqsection .box1 .text{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color:white;
+  padding: 20px 50px;
+ font-size: 1.3rem;
+}
+
+/* FAQ SECTIONS STYLES ENDS  HERE */
+
+
+/* FOOTER SECTIONS STYLES STARTS  HERE */
+
+
+footer{
+  width: 100%;
+  height:650px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+ 
+}
+footer .header{
+  margin-top: 4rem;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .header .contact {
+  width: 33%;
+  height: auto;
+  color: white;
+  font-size: 1.3rem;
+}
+footer .header .home{
+  width: auto;
+  height: auto;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  color: white;
+}
+footer .header .home a{
+  text-decoration: none;
+  color: white;
+}
+
+footer .image{
+  width: auto;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+footer .footer{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+footer .footer .text{
+  width: auto;
+  height: auto;
+  color: #c8c8c8;
+}
+
+footer .footer .policy{
+  width: auto;
+  height: auto;
+  color:white;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
 
 
 
 
-
-
+/* FOOTER SECTIONS STYLES ENDS  HERE */
 
 
 
