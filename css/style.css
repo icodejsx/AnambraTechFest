@@ -10,10 +10,10 @@
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 15px;
-  gap: 9rem;
+  padding: 15px 60px;
+  gap: 4rem;
   background-color: black;
 }
 
@@ -22,14 +22,32 @@ th,
 tr {
   border: 1px solid;
   border-collapse: collapse;
-  border-spacing: 10px;
+  border-spacing: 30px;
+  transition: 1s;
 }
+
+tr :hover{
+  background-color: #eddd12;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.2);
+  border-radius: 20px;
+}
+
 
 nav table,
 th,
 tr a {
   text-decoration: none;
   color: white;
+  padding:10px 5px;
+  transition: 1s;
+ 
+}
+nav table,
+th,
+tr a:hover{
+  color: black;
 }
 
 nav button {
@@ -40,8 +58,18 @@ nav button {
   font-size: 20px;
   border: 1px solid white;
   background-color: white;
+  transition: 1s;
 
 }
+
+nav button:hover {
+  background-color: #eddd12;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  border-radius: 20px;
+}
+
 
 /*  NAV BAR STYLES ENDS HERE  */
 
@@ -56,6 +84,8 @@ nav button {
   padding-top: 4rem;
   background-color: black;
 }
+
+
 
 .hero img {
   width: 150px;
@@ -106,15 +136,25 @@ nav button {
 
 
 .hero .text button {
-  width: 25%;
-  height: 45px;
+  width: 20%;
+  height: 60px;
   font-weight: 700;
   font-family: Manrope;
   font-size: 20px;
   border: 1px solid white;
   background-color: white;
+  transition: 1s;
 
 }
+
+.hero .text button:hover {
+  background-color: #eddd12;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1);
+  border-radius: 20px;
+}
+
 
 /* HERO SECTION STYLES ENDS HERE */
 
@@ -122,7 +162,7 @@ nav button {
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: inherit;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -142,7 +182,7 @@ nav button {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  bottom: 3rem;
+  bottom: 1rem;
   left: 2rem;
   transform: rotate(-10deg);
 }
@@ -164,7 +204,7 @@ nav button {
 
 .secondpart {
   width: 100%;
-  height: 400px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,7 +213,7 @@ nav button {
 
 .secondpart .container {
   width: 100%;
-  height: 400px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -182,13 +222,13 @@ nav button {
 
 
 .secondpart .theme {
-  width: 100%;
+  width: 80%;
   height: auto;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   color: white;
-  margin-left: 16.5rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 
 }
 
@@ -489,8 +529,10 @@ nav button {
   color:#fdfafa;
 }
 
-
 /* EVENTS SECTIONS STYLES  ENDS  HERE */
+
+
+/* HACKATHON  STYLES SECTIONS STARTS HERE */
 
 .hackathon {
   width: 100%;
@@ -679,6 +721,9 @@ tr {
   /* height: 90px; */
   width: 700px;
 }
+
+/* HACKATHON  STYLES SECTIONS ENDS HERE */
+
 
 /* FAQ SECTIONS STYLES STARTS  HERE */
 
@@ -877,11 +922,94 @@ footer .footer .policy{
   gap: 2rem;
 }
 
-
-
-
 /* FOOTER SECTIONS STYLES ENDS  HERE */
 
 
 
+/* MEDIA QUEERY STARTS HERE */
 
+@media screen and (max-width: 1024px) and (min-width:700px){
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 3rem;
+    background-color: black;
+  }
+  
+nav  img{
+  padding-left:1rem;
+  width: 600px;
+  height: 55px;
+  
+}
+  nav button {
+    width: 60%;
+    height: 30px;
+    font-weight: 700;
+    font-family: Manrope;
+    font-size: 13px;
+    padding: 2px 2px;
+
+  }
+
+.hero .text1  {
+  width: 70%;
+  font-size: 1rem;
+
+}
+
+.hero .text1 h1 {
+  font-size: 1rem;
+}
+
+.hero .text button {
+  width: 40%;
+}
+
+.vector .box {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  left: 1rem;
+  top: 25rem;
+  transform: rotate(-10deg);
+
+}
+
+.secondpart .text {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+
+}
+
+.secondpart .text .arewe{
+  margin-bottom: 6rem;
+}
+
+.secondpart .text .textbox {
+  margin-bottom: 1rem;
+  line-height: 21px;
+}
+
+
+
+}
