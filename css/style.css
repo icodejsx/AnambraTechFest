@@ -26,7 +26,7 @@ tr {
   transition: 1s;
 }
 
-tr :hover{
+nav tr :hover{
   background-color: #eddd12;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -200,7 +200,7 @@ nav button:hover {
   margin: 0 auto;
 }
 
-
+/*  SECONDPART STYLES STARTS HERE */
 
 .secondpart {
   width: 100%;
@@ -288,10 +288,11 @@ nav button:hover {
 
 .speakers .content {
   width: 100%;
-  height: auto;
+  height: 700px;
   display: flex;
   justify-content:center;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 .speakers .content .speaker {
@@ -300,22 +301,24 @@ nav button:hover {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  height: auto;
+  height: 300px;
   color: white;
   font-size: 1rem;
 }
 .speakers .content .speaker h1{
   padding-bottom: 1rem;
   font-size: 2rem;
+  width: 30%;
+  height: 120px;
 }
 
 
 .speakers .content .textbox {
-  width: 40%;
-  height: auto;
+  width: 50%;
+  height: 200px;
   display: flex;
   padding-top: 3rem;
-  line-height: 27px;
+  line-height: 25px;
   text-align: left;
  
 }
@@ -330,7 +333,7 @@ nav button:hover {
   align-items: center;
   box-sizing: border-box;
   right: 15rem;
-  margin-top: 30rem;
+  margin-top: 10rem;
   background: linear-gradient(#181716, #2e2b18, #312c18, #121212);
   border: 2px solid rgba(254, 254, 254, 0.1);
   backdrop-filter: blur(25px);
@@ -361,26 +364,40 @@ nav button:hover {
 
 
 .speakers .content .arrow {
-  width: 120px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   display: flex;
   color: white;
-  position: absolute;
+  position: relative;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  bottom: -90rem;
-  left: 12rem;
+  margin-top: 17rem;
+
 }
 
+
+.speakers .content .arrow .box:hover {
+  background-color: #eddd12;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  overflow-x: hidden;
+  color:black
+
+}
+
+
 .speakers .content .arrow .box {
-  width: 130px;
-  height: 50px;
+  width: 100px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
+
   border: 1px solid white;
   font-size: 1.5rem;
+    transition: 1s;
 }
 
 /*  SPEAKERS SECTIONS  STYLES STARTS  ENDS */
@@ -700,11 +717,14 @@ border: none;
   margin-top: 3rem;
 }
 
-.hackathon .hacktext .sponsors table{
-  width: 100%;
-  height: 3800px;
-  margin-top: 3rem;
-  padding-inline: 10px;
+.hackathon .hacktext .sponsors table {
+  margin-top: 2rem;
+  height: 400px;
+}
+.hackathon .hacktext .sponsors table tr th{
+  width: 60%;
+  margin-top: 1rem;
+  height: auto;
   color: white;
 }
 
@@ -715,11 +735,12 @@ th,
 tr {
   border: 1px solid;
   border-collapse: collapse;
-  border-spacing: 10px;
-  padding: 10px;
+  border-spacing: 5px;
+  padding: px;
   justify-content: center;
+
   /* height: 90px; */
-  width: 700px;
+  /* width: 700px; */
 }
 
 /* HACKATHON  STYLES SECTIONS ENDS HERE */
@@ -1010,6 +1031,131 @@ nav  img{
   line-height: 21px;
 }
 
+.speakers .content .speaker {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-bottom: 10rem
+}
+.speakers .content .speaker h1{
+  font-size: 2rem;
+  width: auto;
+  position: absolute;
+}
+
+.speakers .content .textbox {
+  width: 70%;
+  height: auto;
+  display: flex;
+  position: absolute;
+}
+
+.speakers .content .cardbox{
+  margin-bottom: -5rem;
+}
+
+.speakers .content .arrow {
+  margin-bottom: 7rem;
+}
+
+.speakers .content .cardbox {
+  margin-top: 3rem;
+}
+
+.speakers .content .arrow {
+  margin-bottom: -1.5rem;
+  right: -0.3rem;
+}
+
+.events .event .eventdown {
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.events .event .eventdown .eventDownYellow {
+  gap: 1rem;
+  padding: 20px;
+}
+.events .event .eventdown .eventDownBlack {
+  gap: 1rem;
+  padding: 20px;
+  left:0;
+}
+
+.hackathon .hacktext .boxgroup{
+  left: -1px;
+  margin-top:13rem;
+}
+.hackathon .hacktext .boxgroup .firstbox{
+  left:8rem;
+  margin-top: 20rem;
+}
+
+ .hackathon .hacktext .boxgroup .secondbox{
+  gap: 15rem;
+  margin-top:9rem;
+}  
+}
+
+
+@media screen and (max-width: 700px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+  }
+  .hero {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero .text  {
+    width: 100%;
+  }
+
+  .hero .text1  {
+    width: 100%;
+    padding: 0 3px;
+
+  }
+  .hero .text1  h2{
+    width:100%;
+    font-size: 2rem;
+  }
+  .hero img {
+    width: 70px;
+    height:70px;
+    left:0;
+    top: 9.5rem
+  }
+  .hero .text2 {
+    width: 100%;
+    padding: 1px 2px;
+  }
+
+.hero .text button {
+  width: 50%;
+}
+  
+.vector {
+  height: 230px;
+}
+
+
+.vector .box {
+  bottom: 10rem;
+  left: -1rem;
+  /* margin: 0 0 5rem -3rem; */
+
+}
+
+.secondpart {
+  flex-wrap: wrap;
+}
 
 
 }
