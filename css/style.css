@@ -1107,6 +1107,10 @@ nav  img{
     box-sizing: border-box;
     font-family: sans-serif;
     overflow-x: hidden;
+
+  }
+  body{
+    background-color: black;
   }
   .hero {
     flex-wrap: wrap;
@@ -1155,7 +1159,64 @@ nav  img{
 
 .secondpart {
   flex-wrap: wrap;
+  height: auto;
 }
+/* .secondpart .container {
+  flex-wrap: wrap;
+} */
+.secondpart .container .vector{
+  height:1px;
+}
+.secondpart .text {
+  flex-wrap: wrap;
+}
+
+.secondpart .text .arewe {
+  padding-bottom: 0;
+
+}
+
+
+.speakers {
+  padding:1rem;
+}
+
+
+.speakers .bg{
+  display: none;
+}
+
+.speakers .content {
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.speakers .content .speaker {
+  width: 100%;
+}
+
+.speakers .content .speaker h1{
+  width: auto !important;
+}
+.speakers .content  .vector{
+  height: 1px;
+}
+.speakers .content .textbox {
+  width:90%;
+  /* padding-top: ; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
