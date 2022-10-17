@@ -848,7 +848,7 @@ border: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 10px;
+  margin: 10px;
   gap: 10px;
 }
 
@@ -878,7 +878,7 @@ footer{
   flex-direction: column;
   background-color: black;
   align-items: center;
- 
+ gap: 3rem;
 }
 footer .header{
   margin-top: 4rem;
@@ -1153,7 +1153,7 @@ nav  img{
 .vector .box {
   bottom: 10rem;
   left: -1rem;
-  /* margin: 0 0 5rem -3rem; */
+
 
 }
 
@@ -1161,9 +1161,7 @@ nav  img{
   flex-wrap: wrap;
   height: auto;
 }
-/* .secondpart .container {
-  flex-wrap: wrap;
-} */
+
 .secondpart .container .vector{
   height:1px;
 }
@@ -1202,8 +1200,220 @@ nav  img{
   height: 1px;
 }
 .speakers .content .textbox {
-  width:90%;
-  /* padding-top: ; */
+  width:100%;
+  padding-top: 0;
+  margin-bottom: 8rem;
+}
+
+.speakers .content .cardbox {
+  left:2.5rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+
+.events {
+  height: auto;
+  
+}
+.events .event {
+
+  flex-direction: column;
+}
+.events .event .vector {
+  height: 1px;
+}
+.events .event .eventup {
+  padding-top: 2rem;
+
+}
+.events .event .eventup .text h1 {
+  padding-bottom: 1rem;
+}
+
+.events .event .eventup .text {
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+.events .event .eventup .textbox {
+  width: 100%;
+  padding-bottom: 2rem;
+
+}
+
+
+.events .event .eventdown {
+
+  margin-top: 0;
+  gap: 1rem;
+
+}
+
+.events .event .eventdown .eventDownYellow{
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.events .event .eventdown .eventDownBlack{
+  flex-wrap: wrap;
+  left: 0;
+
+  gap:1rem;
+}
+
+.hackathon {
+  flex-wrap: wrap;
+}
+
+.hackathon .hacktext .event .vector{
+  height:1px;
+}
+.hackathon .hacktext .event .text{
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.hackathon .hacktext .event .textbox p{
+  width: 100%;
+}
+
+
+.hackathon .hacktext .event .textbox{
+  flex-wrap: wrap;
+  width:100%;
+  gap: 1rem;
+}
+
+.hackathon .hacktext .bg img{
+  width:500%;
+  height:500%;
+}
+
+.hackathon .hacktext .boxgroup{
+
+  width: auto;
+  left:0;
+padding:1rem;
+}
+.hackathon .hacktext .boxgroup .firstbox{
+  gap: 8rem;
+  left: 1rem;
+}
+.hackathon .hacktext .boxgroup  .box{
+  width: 250px;
+}
+
+.hackathon .hacktext .boxgroup .secondbox{
+  gap: 8rem;
+  margin-left: -2rem;
+}
+.hackathon .hacktext .sponsors .textbox{
+  margin-top: 2rem;
+}
+.hackathon .hacktext .sponsors .textbox .textbox{
+  margin-top: 0;
+}
+.hackathon .hacktext .sponsors .table{
+  overflow-x: scroll;
+}
+
+
+.faqsection .faqbox{
+  width:100%;
+  padding-top: 1rem;
+}
+
+.faqsection .faqbox .vector{
+  height:1px;
+}
+.faqsection .faqbox .text{
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.faqsection .faqbox .text button{
+  width:200px;
+  height: 70px;
+}
+.faqsection .faqbox .textbox{
+  width: auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:400px;
+  padding: 0.5rem;
+  margin-top: 0;
+  font-size:1.5rem;
+
+}
+
+.faqsection .massagebox{
+  width: 90%;
+  margin-top:  
+}
+.faqsection .massagebox .box{
+  width: auto; 
+}
+
+.faqsection .massagebox .box .text{
+  padding: 10px 20px;
+}
+.faqsection .massagebox .box .text h1{
+  font-size: 1rem;
+}
+
+.faqsection .massagebox .box .ptag{
+  padding: 10px 20px;
+}
+
+.faqsection .box1 .text{
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+
+
+footer{
+  height:auto;
+  gap:2rem;
+}
+
+footer .header{
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 2rem;
+}
+
+footer .header .contact {
+  width: auto;
+}
+
+footer .header .home{
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 1.4rem
+}
+footer .image{
+  width: 300px;
+  height: 200px;
+  margin-top: 2rem;
+}
+footer .footer{
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 1rem;
+  margin-top: 0;
+
+  padding-bottom: 2rem;
+}
+footer .footer .policy{
+  flex-direction: column;
+}
+footer .footer .text{
+  text-align: center;
 }
 
 
@@ -1214,9 +1424,6 @@ nav  img{
 
 
 
-
-
-
-
-
 }
+
+
