@@ -1195,7 +1195,7 @@ nav  img{
 
 .secondpart {
   flex-wrap: wrap;
-  height: auto;
+  height: 600px;
 }
 
 .secondpart .container .vector{
@@ -1203,8 +1203,14 @@ nav  img{
 }
 .secondpart .text {
   flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
+
+.secondpart .text .textbox {
+  gap: 1.5rem;
+  width: 100%;
+}
 .secondpart .text .arewe {
   padding-bottom: 0;
 
@@ -1249,7 +1255,7 @@ nav  img{
 
 
 .events {
-  height: auto;
+  height: 1050px;
   
 }
 .events .event {
@@ -1282,7 +1288,7 @@ nav  img{
 .events .event .eventdown {
 
   margin-top: 0;
-  gap: 1rem;
+  gap: 3rem;
 
 }
 
@@ -1300,6 +1306,7 @@ nav  img{
 
 .hackathon {
   flex-wrap: wrap;
+  height:1200px;
 }
 
 .hackathon .hacktext .event .vector{
