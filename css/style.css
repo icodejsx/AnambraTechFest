@@ -1333,7 +1333,7 @@ nav  img{
 }
 
 .hackathon .hacktext .boxgroup{
-
+  height:auto;
   width: auto;
   left:0;
 padding:1rem;
