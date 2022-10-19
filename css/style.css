@@ -46,10 +46,10 @@ tr a {
   transition: 1s;
  
 }
-nav table,
+/* nav table,
 :hover{
   color: black;
-}
+} */
 
 nav button {
   width: 15%;
@@ -1136,10 +1136,10 @@ nav  img{
   nav button{
     display:none;
   }
-
+/* 
   nav table,:hover{
     color: black;
-  }
+  } */
   nav .big{
     padding: 0 ;
     }
