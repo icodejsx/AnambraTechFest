@@ -33,7 +33,9 @@ nav tr :hover{
   transform: scale(1.2);
   border-radius: 20px;
 }
-
+nav .big{
+padding: 0 1.3rem;
+}
 
 nav table,
 th,
@@ -45,8 +47,7 @@ tr a {
  
 }
 nav table,
-th,
-tr a:hover{
+:hover{
   color: black;
 }
 
@@ -750,7 +751,7 @@ tr {
 
 .faqsection{
   width: 100%;
-  height: 1200px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -947,6 +948,10 @@ footer .footer .policy{
 
 
 
+
+
+
+
 /* MEDIA QUEERY STARTS HERE */
 
 @media screen and (max-width: 1024px) and (min-width:700px){
@@ -1097,10 +1102,20 @@ nav  img{
   gap: 15rem;
   margin-top:9rem;
 }  
+
+.faqsection .massagebox{
+  width:70%;
 }
 
 
-@media screen and (max-width: 700px) {
+
+
+
+
+}
+
+
+@media screen and (max-width: 600px) {
   * {
     padding: 0;
     margin: 0;
@@ -1109,6 +1124,26 @@ nav  img{
     overflow-x: hidden;
 
   }
+  nav{
+    justify-content: center;
+    gap: 1rem;
+    padding:0;
+    margin-top:1rem;
+  }
+  nav img{
+    display:none;
+  }
+  nav button{
+    display:none;
+  }
+
+  nav table,:hover{
+    color: black;
+  }
+  nav .big{
+    padding: 0 ;
+    }
+
   body{
     background-color: black;
   }
@@ -1134,15 +1169,16 @@ nav  img{
     width: 70px;
     height:70px;
     left:0;
-    top: 9.5rem
+    top: 7rem
   }
   .hero .text2 {
     width: 100%;
-    padding: 1px 2px;
+    padding: 1px 5px;
   }
 
 .hero .text button {
   width: 50%;
+  
 }
   
 .vector {
@@ -1317,10 +1353,12 @@ padding:1rem;
   overflow-x: scroll;
 }
 
-
+.faqsection{
+  height:auto;
+}
 .faqsection .faqbox{
   width:100%;
-  padding-top: 1rem;
+
 }
 
 .faqsection .faqbox .vector{
@@ -1329,6 +1367,7 @@ padding:1rem;
 .faqsection .faqbox .text{
   flex-wrap: wrap;
   flex-direction: column;
+  padding: 0 10px;
 }
 .faqsection .faqbox .text button{
   width:200px;
@@ -1339,16 +1378,16 @@ padding:1rem;
   display:flex;
   align-items: center;
   justify-content: center;
-  height:400px;
+  height:auto;
   padding: 0.5rem;
   margin-top: 0;
   font-size:1.5rem;
 
 }
 
-.faqsection .massagebox{
+.faqsection  .massagebox{
   width: 90%;
-  margin-top:  
+ margin-bottom:-4rem;
 }
 .faqsection .massagebox .box{
   width: auto; 
