@@ -1286,7 +1286,7 @@ nav  img{
 
 
 .events .event .eventdown {
-
+  height: auto !important;
   margin-top: 0;
   gap: 3rem;
 
