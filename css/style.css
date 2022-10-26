@@ -685,6 +685,7 @@ border-radius: 20px;
   margin-bottom: 4rem;
 }
 
+ 
 .hackathon .hacktext .sponsors .textbox {
   width: 80%;
   height: auto;
@@ -703,6 +704,7 @@ border-radius: 20px;
 
 .hackathon .hacktext .sponsors table {
   margin-top: 2rem;
+  overflow:scroll(y);
   height: 400px;
 }
 .hackathon .hacktext .sponsors table tr th {
